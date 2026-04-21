@@ -3,7 +3,7 @@ import Topbar from "../Components/NgoComponents/Topbar";
 import ReportForm from "../Components/NgoComponents/ReportForm";
 import ReportsList from "../Components/NgoComponents/ReportsList";
 import CreateSurvey from "../Components/NgoComponents/CreateSurvey";
-import NgoDashboard from "../Components/NgoComponents/NgoDashboard";
+import NgoDashboard from "../Components/NgoComponents/Ngodashboard";
 import { Route, Routes, Navigate } from "react-router-dom";
 import { NGOProvider } from "../Context/NGOContext";
 import { Toaster } from "react-hot-toast";

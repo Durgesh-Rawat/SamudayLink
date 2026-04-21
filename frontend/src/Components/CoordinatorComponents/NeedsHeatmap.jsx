@@ -2,8 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import { MapContainer, TileLayer, Circle, Popup, useMap, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { useCoordinator } from "../../Context/CoordinatorContext";
-import { AREA_COORDINATES } from "../../services/matchingEngine";
-import { getUserLocation, reverseGeocode } from "../../services/geocodingService";
+import { AREA_COORDINATES } from "../../services/MatchingEngine";
+import { getUserLocation, reverseGeocode } from "../../services/Geocodingservice";
 import toast from "react-hot-toast";
 import { MdAdd, MdClose, MdMyLocation, MdRefresh } from "react-icons/md";
 

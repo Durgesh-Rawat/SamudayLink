@@ -8,7 +8,7 @@
  * Terms: https://nominatim.org/release-docs/latest/api/Overview/
  */
 
-import { AREA_COORDINATES } from "./matchingEngine";
+import { AREA_COORDINATES } from "./MatchingEngine";
 
 const NOMINATIM_BASE = "https://nominatim.openstreetmap.org";
 
